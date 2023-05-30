@@ -1,7 +1,7 @@
 ##############################
 # base store model
 # create by wkk 2023_05_25
-# update 2023_05_25
+# update 2023_05_30
 ##############################
 
 # store : parameter a = 512;
@@ -27,6 +27,7 @@ class vmodel:
         self.pin_name   = pin_name
 
 class port_list:
+    module_name  =  None
     pmodel_list  =  []
     vmodel_list  =  []
 
